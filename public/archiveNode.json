@@ -1,0 +1,16 @@
+{
+    "name": "The Samuel C. Williams Library Archives & Special Collections ",
+    "lat": 40.744751392259,
+    "lon": -74.02530827138438,
+    "img": "test",
+    "color": "#949594",
+    "fillColor": "#9D1535",
+    "description": "The Samuel C. Williams Library Archives & Special Collections department collects, preserves, and makes accessible primary source materials that document the history of Stevens Institute of Technology, the Stevens family of Hoboken, and the history of science and technology. We collaborate with Stevens faculty, staff, students, and community members on historical lectures, walking tours, exhibitions, and other outreach initiatives. In addition, we assist local and global researchers with original research using collections preserved in the Archives & Special Collections, which contain unique and rare materials that are non-circulating and may be viewed by appointment only. We also provide access to a number of digitized materials covering over 150 years of Stevens history via our digital collections portal.",
+    "collections": [
+        {
+            "collectionName": "Theodore Boettger Collection",
+            "driveId": "db4b11fa-a68e-45ca-903a-c478bf61b26d",
+            "parentFolderId": "5a950bb8-2aa1-4340-890a-449ce9d42ea8"
+        }
+    ]
+}

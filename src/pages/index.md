@@ -1,0 +1,56 @@
+---
+layout: ../layouts/Layout.astro
+---
+
+# The Community Archive
+---
+
+[🗺️ View The Community Archive](/map)
+
+## Why
+Digital storage for archives is a long term, and in some cases permanent, committment. 
+
+Archives pay monthly or yearly installments to store their data in the cloud.
+
+As collections grow more overtime, these fees increase...
+
+Grant money being inconsistent and inadequate, the cloud storage bill one day can't be justified.
+
+The public loses access to knowledge and the archive loses a service to which life was devoted.
+
+## Proposal
+A musuem or archive may use a grant to build a display, 
+that if maintined properly, could last a lifetime and more.
+
+Digital storage, on the other hand, requires a consistent and growing cash flow. 
+
+A grant dedicated to storage only grants the storage of a set ammount of gb per time. 
+
+And grants arent increasing. 
+
+This archive will store data *permanently*[^1].
+
+The community wallet shows how much data we can store. 
+
+The activities page shows all:
+1. Requests for storage from community wallet
+2. Removals and updates
+3. All updates to code
+4. General governance
+
+In effect I have created a transparent archive that can rely on inconsistent funds to store data long term for the public. 
+
+[^1]: So long the Arweave network persists. They estimate 200 years.
+      It could be forked by another project later.
+      Though do not let this distract you from the possibilities presented by this project.
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+{
+    "name": "The Samuel C. Williams Library Archives & Special Collections",
+    "id": 0,
+    "dataFormat": {
+        "collection": "string",
+        "format": "string", 
+        "description": "string",
+        "date": "string",
+        "subject": "string",
+        "title": "string",
+        "identifier": "string"
+    }
+}
