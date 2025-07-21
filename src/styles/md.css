@@ -1,7 +1,14 @@
+body {
+    background: #fffbe9;
+    margin: 0;
+    padding: 0;
+}
+
 .markdown-content {
     max-width: 700px;
     margin: 0 auto;
-    color: #083800;
+    color: hsl(111, 100%, 18%);
+    text-shadow: 0 0 2px #ffffff, 0 0 4px #ffffff, 0 0 6px #ffffff; 
     text-align: left;
     background: #fffbe9; 
     padding: 2em;
@@ -11,7 +18,7 @@
 .markdown-content h1, 
 .markdown-content h2, 
 .markdown-content h3 {
-    color: #083800;
+    color: hsl(111, 100%, 18%);
 }
   
 .markdown-content ul, 
