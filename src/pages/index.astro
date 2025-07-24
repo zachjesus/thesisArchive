@@ -1,0 +1,13 @@
+---
+import MyLayout from '../layouts/Layout.astro';
+import LeafletMap from '../components/map.jsx';
+import { Content as Updates } from '../content/updates.md';
+---
+
+<MyLayout title="Home">
+  <LeafletMap client:only="solid" />
+  <section class="updates-section">
+    <h2>UPDATES</h2>
+    <Updates />
+  </section>
+</MyLayout> 

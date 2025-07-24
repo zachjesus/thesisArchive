@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "DisplayFont";
+  src: url("/fonts/NeueHaasGrotDispRound-65Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "TextFont";
+  src: url("/fonts/NeueHaasGrotTextRound-65Medium.otf") format("opentype");
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: "TextFont", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "DisplayFont", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding-top: 2rem;
+}
+
+p {
+  font-family: "TextFont", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+  text-decoration-thickness: 0.15rem;
+  text-underline-offset: 0.1rem;
+  text-decoration-color: red;
+}
+
+button {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: none;    
+  border-top: 0.15rem solid #000; 
+  background: none;   
+  height: 0;
+  box-shadow: none;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 0.275fr 0.45fr 0.275fr;
+  grid-template-rows: 1fr;
+  height: 100%;
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.main-content {
+  background-color: #fff;
+  flex-direction: column;
+  flex: 1 1 auto;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-left {
+  background-color: #fff;
+  flex-direction: column;
+  flex: 1 1 auto;
+  display: flex;
+}
+
+.sidebar-right {
+  background-color: #fff;
+  flex-direction: column;
+  flex: 1 1 auto;
+  display: flex;
+}
+
+#sidebar {
+  padding: 0rem 4rem;
+}
+
+#sidebar-links {
+  list-style: none;
+  padding: 0 1rem;
+  margin: 0;
+  transition: max-height 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+#plus {
+  font-size: 1.5rem;
+  transition: transform 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
+}

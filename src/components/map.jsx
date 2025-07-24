@@ -84,10 +84,9 @@ export default function LeafletMap() {
     <div
       id="map"
       style={{
-        height: "100%",
+        height: "60vh",
         width: "100%",
         margin: "0",
-        minHeight: "400px"
       }}
     />
   );
