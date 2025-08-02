@@ -1,38 +1,19 @@
 # Open Archive
 
-```sh
-npm create astro@latest -- --template basics
-```
+A way for you to quickly create an archive for your ArDrive Turbo Uploads. What you upload will be permanent and remain for long as the Arweave network exists for a one time fee. 
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+ArDrive turbo uploads can easily be scripted in bulk with a scripting language and the ArDrive CLI. 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Make sure you add metadata to your uploads!
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+<img width="1919" height="1066" alt="Screenshot 2025-07-24 151426" src="https://github.com/user-attachments/assets/99eca897-4bad-4c4c-b66e-15445c3293f5" />
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+# Checklist
+- [x] ArDrive Integration.
+- [ ] Change map display to light weight node graph.
+- [ ] Make collections page.
+- [ ] Sorting and search queries.
+- [ ] Voting!!!
 
 ## 🧞 Commands
 
